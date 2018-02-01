@@ -15,6 +15,11 @@ target_include_directories(arithmetic
 
 target_link_libraries(arithmetic)
 
+if (BUILD_TESTING)
+  enable_testing()
+  add_subdirectory(test)
+endif()
+
 install(TARGETS arithmetic
         RUNTIME DESTINATION bin
         LIBRARY DESTINATION lib
