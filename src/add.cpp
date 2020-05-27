@@ -5,5 +5,5 @@
 int add(int a, int b) noexcept
 {
   // Most straightforward implementation
-  return std::plus<>{}(a, b);
+  return std::plus<int>{}(a, b);
 }
