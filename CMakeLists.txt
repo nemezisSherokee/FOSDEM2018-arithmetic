@@ -9,7 +9,7 @@ project(Arithmetic)
    set(CMAKE_STATIC_LIBRARY_PREFIX "")
 
 
-add_library(arithmetic STATIC src/add.cpp)
+add_library(arithmetic SHARED src/add.cpp)
 add_library(arithmetic::arithmetic ALIAS arithmetic)
 
 target_include_directories(arithmetic
