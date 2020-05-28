@@ -10,7 +10,7 @@ project(Arithmetic)
 
 
 add_library(arithmetic SHARED src/add.cpp)
-add_library(arithmetic::arithmetic SHARED ALIAS arithmetic)
+add_library(arithmetic::arithmetic ALIAS arithmetic)
 
 target_include_directories(arithmetic
   PUBLIC
