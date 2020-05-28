@@ -6,6 +6,7 @@ project(Arithmetic)
 #set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_library(arithmetic SHARED src/add.cpp)
+add_library(arithmetic::arithmetic ALIAS arithmetic)
 
 target_include_directories(arithmetic
   PUBLIC
