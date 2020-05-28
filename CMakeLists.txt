@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 3.0)
 
 project(Arithmetic)
 
-set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_EXTENSIONS OFF)
+#set(CMAKE_CXX_STANDARD 14)
+#set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_library(arithmetic src/add.cpp)
+add_library(arithmetic SHARED src/add.cpp)
 
 target_include_directories(arithmetic
   PUBLIC
