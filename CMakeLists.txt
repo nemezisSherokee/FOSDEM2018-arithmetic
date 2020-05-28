@@ -5,6 +5,10 @@ project(Arithmetic)
 #set(CMAKE_CXX_STANDARD 14)
 #set(CMAKE_CXX_EXTENSIONS OFF)
 
+   set(CMAKE_SHARED_LIBRARY_PREFIX "")
+   set(CMAKE_STATIC_LIBRARY_PREFIX "")
+
+
 add_library(arithmetic SHARED src/add.cpp)
 add_library(arithmetic::arithmetic ALIAS arithmetic)
 
