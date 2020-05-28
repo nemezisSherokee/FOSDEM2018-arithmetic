@@ -1,3 +1,3 @@
 #pragma once
 
-int add(int a, int b) noexcept;
+int add(int a, int b);
