@@ -10,11 +10,11 @@ class ArithmeticConan(ConanFile):
    def source(self):
       print("\n\n\nCalling SOURCE");
       url = "https://github.com/nemezisSherokee/FOSDEM2018-arithmetic";
-      self.run("git clone %s arithmetic" % url)
+      #self.run("git clone %s arithmetic" % url)
     
    def build(self):
       print("\n\n\nCalling BUILD");
-      cmake = CMake(self, make_program="C:\\compiler\\GnuWin32\\bin\\make.exe")
+      #cmake = CMake(self, make_program="C:\\compiler\\GnuWin32\\bin\\make.exe")
       cmake.configure(source_dir="arithmetic")
       cmake.build()
       #cmake.install()
@@ -23,7 +23,7 @@ class ArithmeticConan(ConanFile):
       self.cpp_info.libs=["arithmetic"]
       
    def package(self):
-      cmake = CMake(self, make_program="C:\\compiler\\GnuWin32\\bin\\make.exe")
+      #cmake = CMake(self, make_program="C:\\compiler\\GnuWin32\\bin\\make.exe")
       cmake.install()
 
 ##########FINAL NOTES################
