@@ -1,0 +1,3 @@
+D:/Work F80/test-Conan/calculator/usingproject/build/CMakeFiles/rebuild_cache.dir
+D:/Work F80/test-Conan/calculator/usingproject/build/CMakeFiles/Calculator.dir
+D:/Work F80/test-Conan/calculator/usingproject/build/CMakeFiles/edit_cache.dir

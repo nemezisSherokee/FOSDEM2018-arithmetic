@@ -1,0 +1,24 @@
+# ninja log v5
+1	739	6123622069499150	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+742	1925	6123622081075124	bin/Calculator.exe	c16aeb6256f7dbf2
+13	847	6123626414252830	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+848	2169	6123626427368992	bin/Calculator.exe	c16aeb6256f7dbf2
+16	828	6123636306927603	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+828	1957	6123636317937842	bin/Calculator.exe	c16aeb6256f7dbf2
+15	785	6123640254208524	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+18	1452	6123692464453512	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+21	1094	6123693747815909	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+14	776	6123694520440605	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+19	1071	6123695734370038	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+14	806	6123704545275142	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+15	877	6123706346118034	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+877	2222	6123706359028984	bin/Calculator.exe	c16aeb6256f7dbf2
+27	925	6123712878589019	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+926	2018	6123712889256676	bin/Calculator.exe	c16aeb6256f7dbf2
+13	888	6123717019629638	CMakeFiles/Calculator_LIB.dir/src/main.cpp.obj	84191306f7285738
+49	1337	6123717019839630	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+1337	2838	6123717038872072	bin/Calculator.exe	c16aeb6256f7dbf2
+13	800	6123718663807680	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+800	1960	6123718675079525	bin/Calculator.exe	c16aeb6256f7dbf2
+15	778	6124378277244754	CMakeFiles/Calculator.dir/src/main.cpp.obj	e035abf9e6459052
+779	2029	6124378289421137	bin/Calculator.exe	c16aeb6256f7dbf2

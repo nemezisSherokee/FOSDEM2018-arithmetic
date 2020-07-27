@@ -1,0 +1,5 @@
+[requires]
+arithmetic/0.1@hermann/stable
+
+[generators]
+cmake
